@@ -31,14 +31,14 @@ export default function Home() {
 
         {/* Offers Section */}
         <section className="mt-20">
-          <div className="bg-slate-950 rounded-3xl p-8 md:p-12">
+          <div className="bg-background rounded-3xl p-8 md:p-12">
             <div className="grid md:grid-cols-2 gap-8">
               <Card className="p-8 border-0 shadow-sm bg-card text-card-foreground">
                 <h3 className="text-2xl font-bold mb-4 text-white">Client Launch Offer</h3>
                 <p className="text-muted-foreground">
                   Get started with our special launch pricing and premium support to automate your business processes.
                 </p>
-                <Button variant="outline" className="mt-6 text-white border-white hover:bg-slate-800">
+                <Button variant="outline" className="mt-6 border-border text-foreground hover:bg-muted">
                   Learn More
                 </Button>
               </Card>
@@ -48,7 +48,7 @@ export default function Home() {
                 <p className="text-muted-foreground">
                   Read about our mission and how we're helping small businesses focus on what truly matters.
                 </p>
-                <Button variant="outline" className="mt-6 text-white border-white hover:bg-slate-800">
+                <Button variant="outline" className="mt-6 border-border text-foreground hover:bg-muted">
                   Read More
                 </Button>
               </Card>
