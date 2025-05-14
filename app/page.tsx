@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center px-4 py-24 md:py-32 bg-black">
+    <main className="flex min-h-screen flex-col items-center justify-center px-4 py-24 md:py-32 bg-background">
       <div className="container max-w-4xl mx-auto text-center space-y-12">
         {/* Hero Section */}
         <section className="space-y-6">
