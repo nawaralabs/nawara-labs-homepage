@@ -6,7 +6,6 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Card } from "@/components/ui/card"
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -41,7 +40,8 @@ export default function ContactPage() {
           <h1 className="text-4xl font-bold mb-8 text-center text-white">Contact Us</h1>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div>
+            {/* LEFT SIDE: Get in Touch section */}
+            <div className="bg-neutral-900 p-6 rounded-lg shadow-md">
               <h2 className="text-2xl font-bold mb-4 text-white">Get in Touch</h2>
               <p className="text-slate-500 mb-6">
                 Have questions about how we can help your business? Fill out the form and we'll get back to you as soon
@@ -63,7 +63,8 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <Card className="bg-neutral-900 p-6 rounded-lg shadow-md">
+            {/* RIGHT SIDE: Contact Form */}
+            <div className="bg-neutral-900 p-6 rounded-lg shadow-md">
               {isSubmitted ? (
                 <div className="text-center py-8">
                   <h3 className="text-xl font-bold mb-2 text-white">Thank You!</h3>
@@ -127,7 +128,7 @@ export default function ContactPage() {
                   </Button>
                 </form>
               )}
-            </Card>
+            </div>
           </div>
         </div>
       </div>
