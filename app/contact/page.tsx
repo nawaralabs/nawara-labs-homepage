@@ -63,7 +63,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <Card className="p-6 bg-slate-900 border-slate-800">
+            <Card className="bg-neutral-900 p-6 rounded-lg shadow-md">
               {isSubmitted ? (
                 <div className="text-center py-8">
                   <h3 className="text-xl font-bold mb-2 text-white">Thank You!</h3>
@@ -84,7 +84,7 @@ export default function ContactPage() {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="bg-slate-800 border-slate-700 text-white"
+                      className="bg-neutral-900 p-6 rounded-lg shadow-md text-white"
                     />
                   </div>
 
@@ -99,7 +99,7 @@ export default function ContactPage() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="bg-slate-800 border-slate-700 text-white"
+                      className="bg-neutral-900 p-6 rounded-lg shadow-md text-white"
                     />
                   </div>
 
@@ -114,7 +114,7 @@ export default function ContactPage() {
                       value={formData.message}
                       onChange={handleChange}
                       required
-                      className="bg-slate-800 border-slate-700 text-white"
+                      className="bg-neutral-900 p-6 rounded-lg shadow-md text-white"
                     />
                   </div>
 
