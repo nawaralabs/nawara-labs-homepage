@@ -13,7 +13,7 @@ export default function ServicesPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <Card className="bg-slate-900 border-slate-800">
+          <Card className="bg-neutral-900 p-6 rounded-lg shadow-md">
             <CardHeader>
               <CardTitle className="text-white">Lead Capture</CardTitle>
               <CardDescription className="text-slate-500">Automate your lead generation process</CardDescription>
@@ -29,7 +29,7 @@ export default function ServicesPage() {
             </CardContent>
           </Card>
 
-          <Card className="bg-slate-900 border-slate-800">
+          <Card className="bg-neutral-900 p-6 rounded-lg shadow-md">
             <CardHeader>
               <CardTitle className="text-white">Follow-up Systems</CardTitle>
               <CardDescription className="text-slate-500">Never miss an opportunity</CardDescription>
@@ -44,7 +44,7 @@ export default function ServicesPage() {
             </CardContent>
           </Card>
 
-          <Card className="bg-slate-900 border-slate-800">
+          <Card className="bg-neutral-900 p-6 rounded-lg shadow-md">
             <CardHeader>
               <CardTitle className="text-white">Booking Systems</CardTitle>
               <CardDescription className="text-slate-500">Streamline your scheduling</CardDescription>
